@@ -7,7 +7,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependency directories
 node_modules
+.pnpm-store
+.npm
+.yarn
+
+# Build directories
 dist
 dist-ssr
 *.local
@@ -22,3 +28,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables
+.env
+.env.local
+.env.*.local
